@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: #0A192F;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav .links a{
+    text-decoration: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+aside{
+    width: 11rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
 }
-
-.App-link {
-  color: #61dafb;
+.icons{
+    transform: translate(-6.9rem);
+    transition: all 0.5s ease-in-out;
+    padding:0 0 0 0.5rem;
+    cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkedin{
+    background-color: #2563EB;
+}
+.linkedin:hover{
+    transform: translate(0);
+}
+.github{
+    background-color: #333333;
+}
+.github:hover{
+    transform: translate(0);
+}
+.email{
+    background-color: #6FC2B0;
+}
+.email:hover{
+    transform: translate(0);
+}
+.resume{
+    background-color: #565F69;
+}
+.resume:hover{
+    transform: translate(0);
 }
