@@ -5,42 +5,40 @@ import {
   BsFillEnvelopeFill,
   BsFillPersonLinesFill,
 } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
     <aside>
-      <div
-        className="linkedin text-light fs-3 icons d-flex justify-content-between align-items-center
-"
-      >
-        Linkedin{" "}
+      <div className="icons linkedin text-light fs-3 d-flex justify-content-between align-items-center">
+        <Link to="//www.linkedin.com/in/aliseslikaya/" target="_blank">
+          Linkedin
+        </Link>
         <span className="display-5 d-flex align-items-center p-2">
           <BsLinkedin />
         </span>
       </div>
-      <div
-        className="github text-light fs-3 icons d-flex justify-content-between align-items-center
-"
-      >
-        Github{" "}
+
+      <div className="icons github text-light text-light fs-3 d-flex justify-content-between align-items-center">
+        <Link to="//github.com/MrDogukan" target="_blank">
+          Github
+        </Link>
         <span className="display-5 d-flex align-items-center p-2">
           <BsGithub />
-        </span>
+        </span>{" "}
       </div>
-      <div
-        className="email text-light fs-3 icons d-flex justify-content-between align-items-center
-"
-      >
-        Email{" "}
+
+      <div className="icons email text-light fs-3 d-flex justify-content-between align-items-center">
+        <a href="mailto:aliseslikaya@gmail.com" target="_blank">
+          Email
+        </a>
         <span className="display-5 d-flex align-items-center p-2">
           <BsFillEnvelopeFill />
         </span>
       </div>
-      <div
-        className="resume text-light fs-3 icons d-flex justify-content-between align-items-center
-"
-      >
-        Resume{" "}
+
+      <div className="icons resume text-light fs-3 d-flex justify-content-between align-items-center">
+        <Link to="/resume">Resume</Link>
         <span className="display-5 d-flex align-items-center p-2">
           <BsFillPersonLinesFill />
         </span>

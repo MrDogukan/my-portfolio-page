@@ -1,0 +1,60 @@
+const data = [
+  {
+    id: 7,
+    name: "Movie App",
+    image: "movie",
+    url: "https://movie-app-firebase-ten.vercel.app/",
+    source: "https://github.com/MrDogukan/movie-app-firebase",
+    tool: "react",
+  },
+  {
+    id: 6,
+    name: "IOS Calculator",
+    image: "calculator",
+    url: "https://mrdogukan.github.io/Ios-Calculator/",
+    source: "https://github.com/MrDogukan/Ios-Calculator",
+    tool: "javascript",
+  },
+  {
+    id: 5,
+    name: "To-Do App",
+    image: "jstodo",
+    url: "https://mrdogukan.github.io/to-do_app/",
+    source: "https://github.com/MrDogukan/to-do_app",
+    tool: "javascript",
+  },
+  {
+    id: 4,
+    name: "Guess The Number",
+    image: "guess",
+    url: "https://mrdogukan.github.io/guess_the_number_project/",
+    source: "https://github.com/MrDogukan/guess_the_number_project",
+    tool: "javascript",
+  },
+  {
+    id: 3,
+    name: "Parallax Design",
+    image: "parallax",
+    url: "https://mrdogukan.github.io/parallax-website/",
+    source: "https://github.com/MrDogukan/parallax-website",
+    tool: "css",
+  },
+  {
+    id: 2,
+    name: "Netflix Survey Form",
+    image: "netflix",
+    url: "https://mrdogukan.github.io/netflix-survey/",
+    source: "https://github.com/MrDogukan/netflix-survey",
+    tool: "css",
+  },
+  {
+    id: 1,
+    name: "Voltran Page",
+    image: "voltran",
+    url: "https://mrdogukan.github.io/voltran/",
+    source: "https://github.com/MrDogukan/voltran",
+    tool: "css",
+  },
+];
+
+export default data;
