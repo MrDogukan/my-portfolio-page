@@ -11,7 +11,7 @@ const Project = ({ name, image, url, source }) => {
         onMouseOver={() => setShowBtn(false)}
         onMouseOut={() => setShowBtn(true)}
       >
-        <img src={`/images/${image}.PNG`} alt={name} className="rounded-3" />
+        <img src={`/images/${image}.png`} alt={name} className="rounded-3" />
         <div
           className={`btnDiv  flex-column justify-content-center align-items-center gap-1 rounded-3 ${
             showBtn ? "d-none" : "d-flex"
