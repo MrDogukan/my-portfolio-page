@@ -163,7 +163,9 @@ aside {
   transform: scale(0.97);
 }
 .all{
-  background-color: #FF008E !important;
+  background-color: #FF008E
+
+ !important;
   color:#ccd6f6;
 }
 .all:hover{
