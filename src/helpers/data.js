@@ -1,5 +1,13 @@
 const data = [
   {
+    id: 10,
+    name: "Simpsons App",
+    image: "simpson",
+    url: "https://simpsons-app.vercel.app/",
+    source: "https://github.com/MrDogukan/simpsons-app",
+    tool: "react",
+  },
+  {
     id: 9,
     name: "Task Tracker",
     image: "task",
