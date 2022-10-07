@@ -12,7 +12,7 @@ const data = [
     name: "Task Tracker",
     image: "task",
     url: "https://task-tracker-q5ycegxdo-mrdogukan.vercel.app/",
-    source: "https://github.com/MrDogukan/rc10_task-tracker-solutions",
+    source: "https://github.com/MrDogukan/rc10_task-tracker-solution",
     tool: "react",
   },
   {
